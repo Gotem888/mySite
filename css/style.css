@@ -1,17 +1,19 @@
 *{background-color: black;
 }
+body{
+  text-align: center;
+}
 #content{
     display: inline-block;
     position: relative;
 }
 a.login-box {
     position: relative;
-    left: 20%;
     display: inline-block;
     padding: 150px 250px;
     color: transparent; /* прозрачный цвет букв */
     -webkit-text-stroke: 1px #3e6266;
-     font-weight: bold;
+    font-weight: bold;
     font-size: 70px;
     text-decoration: none;
     text-transform: uppercase;
