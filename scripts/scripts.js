@@ -70,7 +70,6 @@ const createContent = (car) => {
   <div class="car">
     <h2 class="car__title">${car.name}</h2>
     <img class="car__image" src="${car.img}" alt="${car.name} avatar" />
-    <p class="car__description">${car.desc}</p>
   </div>
   `;
 
