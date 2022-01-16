@@ -1,35 +1,30 @@
 const DATA = [
-    {
-      id: 1,
-      name: 'Model S',
-      img: 'https://i.ibb.co/R3mw7z8/modelS.jpg',
-      desc: ''
-    },
-    {
-      id: 2,
-      name: 'Model X',
-      img: '../img/modelX.jpg',
-      desc: ''
-    },
-    {
-      id: 3,
-      name: 'Model Roadster',
-      img: '../img/Roadster.jpg',
-      desc: ''
-    },
-    {
-      id: 4,
-      name: 'Model S Plaid',
-      img: '../img/ModelSPlaid.jpg',
-      desc: ''
-    },
-    {
-      id: 5,
-      name: 'Model Semi',
-      img: '../img/Semi.png',
-      desc: ''
-    }
-  ];
+  {
+    id: 1,
+    name: 'Model S',
+    img: 'https://i.ibb.co/R3mw7z8/modelS.jpg'
+  },
+  {
+    id: 2,
+    name: 'Model X',
+    img: 'https://i.ibb.co/6DFBPCz/modelX.jpg'
+  },
+  {
+    id: 3,
+    name: 'Model Roadster',
+    img: 'https://i.ibb.co/4dFkT0t/Roadster.jpg'
+  },
+  {
+    id: 4,
+    name: 'Model S Plaid',
+    img: 'https://i.ibb.co/ZHK7t75/Model-SPlaid.jpg'
+  },
+  {
+    id: 5,
+    name: 'Model Semi',
+    img: 'https://i.ibb.co/841ndyw/Semi.png'
+  }
+];
 
 const aEnt = document.getElementById('aLog');
 const wrappEl = document.getElementById('wrap');
